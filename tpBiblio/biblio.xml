@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "file:/C:/Users/m/OneDrive/Desktop/M1%20Master%20II-BDCC/Semestre.7/Technologie%20XML%20et%20Web%20services/Cours/TPs/BIBLIO/biblio.dtd">
+<biblio>
+    <etudiant code="01" nom="IZEGNANE" prenom="Abdenacer" age="22">
+        <livre id="10" titre="Oracle" datePret="2024-01-01" rendu="non"/>
+        <livre id="11" titre="WebService" datePret="2024-01-01" rendu="oui"/>
+    </etudiant>
+    <etudiant code="02" nom="FILALE" prenom="Mustapha" age="30">
+        <livre id="11" titre="WebService" datePret="2024-02-01" rendu="oui"/>
+        <livre id="10" titre="Oracle" datePret="2024-02-01" rendu="non"/>
+    </etudiant>
+    <etudiant code="03" nom="ZAHID" prenom="Khalid" age="27">
+        <livre id="12" titre="Java" datePret="2024-03-01" rendu="oui"/>
+        <livre id="10" titre="Oracle" datePret="2024-03-01" rendu="non"/>
+    </etudiant>
+</biblio>
