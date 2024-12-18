@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operateur SYSTEM "file:/C:/Users/m/OneDrive/Desktop/XMLTP/tpMarocTeleocm/marocTelecom.dtd">
+<operateur>
+    <client code="01" nom="Bakas">
+        <abonnement num="01" dateAb="2020-01-01" type="GSM">
+            <facture numFact="01" dateFact="2020-02-01" montant="1000" regle="oui"/>
+        </abonnement>
+        <abonnement num="02" dateAb="2020-01-01" type="FIXE">
+            <facture numFact="01" dateFact="2020-02-01" montant="2000" regle="non"/>
+        </abonnement>
+    </client>
+    <client code="02" nom="Izegnane">
+        <abonnement num="01" dateAb="2020-01-01" type="GSM">
+            <facture numFact="01" dateFact="2020-02-01" montant="1000" regle="oui"/>
+        </abonnement>
+        <abonnement num="02" dateAb="2020-01-01" type="FIXE">
+            <facture numFact="01" dateFact="2020-02-01" montant="2000" regle="non"/>
+        </abonnement>
+    </client>
+</operateur>
