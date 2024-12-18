@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/m/OneDrive/Desktop/M1%20Master%20II-BDCC/Semestre.7/Technologie%20XML%20et%20Web%20services/TPs/tpReleveBanquaire/releveBancaire.xsd">
+    <releve rib="011112222333344445555666" dateReleve="2021-11-10" solde="14500">
+        <operations dateDebut="2021-01-01" dateFin="2021-01-30">
+            <operation date="2021-01-01" montant="9000" description="Vers Especes" type="CREDIT"/>
+            <operation date="2021-01-11" montant="3400" description="Cheque Guichet" type="CREDIT"/>
+            <operation date="2021-01-15" montant="120" description="Prelevement Assurance" type="CREDIT"/>
+            <operation date="2021-01-25" montant="70000" description="Virement" type="CREDIT"/>
+        </operations>
+    </releve>
+    <releve rib="011112222333344445555777" dateReleve="2021-11-10" solde="14500">
+        <operations dateDebut="2021-02-28" dateFin="2021-01-30">
+            <operation date="2021-01-01" montant="9000" description="Vers Especes" type="CREDIT"/>
+            <operation date="2021-01-11" montant="3400" description="Cheque Guichet" type="DEBIT"/>
+            <operation date="2021-01-15" montant="120" description="Prelevement Assurance" type="CREDIT"/>
+            <operation date="2021-01-25" montant="70000" description="Virement" type="DEBIT"/>
+        </operations>
+    </releve>
+</releves>
